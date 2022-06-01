@@ -45,6 +45,7 @@ console.log(o);
 const removed = o.pop();
 console.log(o);
 console.log(removed);
+// змінити формат дати
 const birthday = "1990-12-31";
 const newBirthday = birthday.split("-");
 console.log(newBirthday.join("/"));
